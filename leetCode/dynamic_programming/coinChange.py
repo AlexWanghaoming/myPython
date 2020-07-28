@@ -12,7 +12,7 @@ def coinChange(coins, amount):
     return dp[-1] if dp[-1] != float('inf') else -1
 
 if __name__ == '__main__':
-    coins = [186, 419, 83, 408]
-    amount = 6249
+    coins = [1,2,5]
+    amount = 11
 
     print(coinChange(coins, amount))
